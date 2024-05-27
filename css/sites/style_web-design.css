@@ -1,0 +1,61 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('../general/variables.css');
+@import url('../general/typography.css');
+@import url('../reset/reset.css');
+@import url('../components/header.css');
+@import url('../components/footer.css');
+@import url('../components/service-intro-subservices.css');
+@import url('../components/project-gallery.css');
+
+body {
+    background: var(--background-color-dark);
+}
+
+/* Header background gradient */
+.gradient-container {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(249, 169, 82)), to(rgb(155, 83, 5)));
+    background: -o-linear-gradient(left, rgb(249, 169, 82) 0%, rgb(155, 83, 5) 100%);
+    background: linear-gradient(90deg, rgb(249, 169, 82) 0%, rgb(155, 83, 5) 100%);
+    background-size: 200%;
+   
+    -webkit-animation: background-animation 10s infinite alternate;
+   
+            animation: background-animation 10s infinite alternate;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+/* Gradient animation */
+@-webkit-keyframes background-animation {
+    0% {background-position: bottom left}
+    100% {background-position: top right;}
+}
+@keyframes background-animation {
+    0% {background-position: bottom left}
+    100% {background-position: top right;}
+}
+
+/* Overwrite the contact button background color */
+#contact-cto {
+    background: var(--background-color-dark) !important;
+}
+
+#contact-cto:hover {
+    background: var(--background-color-dark-2) !important;
+}
+
+/* tablets */
+@media (min-width: 768px) {
+
+}
+
+/* desktops */
+@media (min-width: 1280px){
+
+}

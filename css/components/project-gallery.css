@@ -1,0 +1,148 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Projects Section */
+.projects {
+    color: var(--neutral-color-1);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.projects > h2 {
+    text-align: center;
+    padding: 2rem 15%;
+}
+
+/* Project */
+.project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+}
+
+.project > h3 {
+    text-align: center;
+    padding: 0 15%;
+}
+
+.project > p {
+    padding: 0 15%;
+}
+
+.project a {
+    color: var(--neutral-color-1);
+}
+
+/* Full Image */
+.full-image {
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 2rem 15%;
+
+}
+
+.full-image img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+
+}
+
+/* Image Gallery */
+.project-gallery {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+    padding: 2rem 15%;
+}
+.project-gallery > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.project-gallery picture {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.project-gallery img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+/* Video Gallery */
+.project-gallery-video {
+    display: flexbox;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+    padding: 2rem 15%;
+    width: 100%;
+    height: auto;
+}
+
+.project-gallery-video img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.project-gallery-video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+/* tablets */
+@media (min-width: 768px) {
+    .project-gallery {
+        -ms-grid-columns: 1fr 1rem 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 2rem 15%;
+    }
+}
+
+/* desktops */
+@media (min-width: 1280px){
+    .project-gallery {
+        -ms-grid-columns: 1fr 1rem 1fr 1rem 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        padding: 2rem 15%;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+}

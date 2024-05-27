@@ -1,0 +1,152 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Bold Font */
+@font-face {
+    font-family: 'titillium-web-bold';
+    src: url(../../fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'titillium-web-bold-italic';
+    src: url(../../fonts/TitilliumWeb-BoldItalic.ttf);
+}
+
+/* Regular Font */
+
+@font-face {
+    font-family: 'titillium-web-regular-italic';
+    src: url(../../fonts/TitilliumWeb-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'titillium-web-regular';
+    src: url(../../fonts/TitilliumWeb-Regular.ttf);
+}
+
+/* Extra Light Font */
+
+@font-face {
+    font-family: 'titillium-web-extralight';
+    src: url(../../onts/TitilliumWeb-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'titillium-web-extralight-italic';
+    src: url(../../fonts/TitilliumWeb-ExtraLightItalic.ttf);
+}
+
+/* Font Usage */
+
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-size-mobile);
+}
+
+h1 {
+    font-family: var(--heading-font-family);
+    font-size: var(--mainheading-size-mobile);
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+h2 {
+    font-family: var(--heading-font-family);
+    font-size:  var(--heading-two-size-mobile);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-three-size-mobile);
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-four-size-mobile);
+    text-transform: uppercase;
+}
+
+.slogan {
+    font-size: var(--slogan-size-mobile);
+    line-height: var(--slogan-size-mobile);
+}
+
+.service-title {
+    font-family: var(--heading-font-family);
+    font-size: var(--service-title-mobile);
+    text-transform: uppercase;
+}
+
+
+
+/* tablets */
+@media (min-width: 768px){
+    body {
+        font-size: var(--body-size-tablet);
+    }
+    
+    h1 {
+        font-size: var(--mainheading-size-tablet);
+        line-height: 4rem;
+    }
+    
+    h2 {
+        font-size:  var(--heading-two-size-tablet);
+    }
+    
+    h3 {
+        font-size: var(--heading-three-size-tablet);
+    }
+    
+    h4 {
+        font-size: var(--heading-four-size-tablet);
+    }
+
+    .slogan {
+        font-size: var(--slogan-size-tablet);
+        line-height: var(--slogan-size-tablet);
+    }
+
+    .service-title {
+        font-size: var(--service-title-tablet);
+    }
+}
+
+/* desktops */
+@media (min-width: 1280px){
+    body {
+        font-size: var(--body-size);
+    }
+    
+    h1 {
+        font-size: var(--mainheading-size);
+        line-height: 5rem;
+    }
+    
+    h2 {
+        font-size:  var(--heading-two-size);
+    }
+    
+    h3 {
+        font-size: var(--heading-three-size);
+    }
+    
+    h4 {
+        font-size: var(--heading-four-size);
+    }
+
+    .slogan {
+        font-size: var(--slogan-size);
+        line-height: var(--slogan-size);
+    }
+
+    .service-title {
+        font-size: var(--service-title);
+    }
+}

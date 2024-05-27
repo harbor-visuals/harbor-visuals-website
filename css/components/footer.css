@@ -1,0 +1,79 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Footer */
+/* Footer background */
+footer {
+    color: var(--neutral-color-1);
+    padding: 4rem 10%;
+}
+
+/* Logo in footer */
+footer img {
+    height: 6.5rem;
+    -webkit-filter: grayscale(100%) brightness(400%);
+            filter: grayscale(100%) brightness(400%);
+}
+
+/* Links in footer */
+footer a {
+    color: var(--neutral-color-1);
+}
+
+footer a:hover {
+    color: var(--background-color-light2);
+}
+
+footer li {
+    list-style-type: none;
+}
+
+/* Link collection headings */
+footer ul:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+/* Copyright */
+footer small {
+    display: block;
+    text-align: center;
+}
+
+/* tablets */
+@media (min-width: 768px){
+
+}
+
+/* desktops */
+@media (min-width: 1280px){
+    /* Footer */
+    footer > div {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        gap: 2rem;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        padding-bottom: 3rem;
+    }
+}

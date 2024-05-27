@@ -1,0 +1,274 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Service Intro */
+.service-intro {
+    background: var(--neutral-color-1);
+    padding: 2rem 15%;
+}
+
+/* Service Section (Container) */
+.services {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 3rem 2rem 1fr 2rem 1fr 2rem 1fr;
+    grid-template-rows: 3rem 1fr 1fr 1fr;
+    gap: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    background: white;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.services > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+.services > *:nth-child(2) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+.services > *:nth-child(3) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+}
+.services > *:nth-child(4) {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+}
+
+/* Section Title */
+section.services > h2 {
+    min-width: 100%;
+    text-align: center;
+}
+
+/* Center tiles */
+.services > div {
+    -ms-grid-row-align: center;
+    -ms-grid-column-align: center;
+    place-self: center;
+}
+
+/* Service Tiles */
+.service-tile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    background: var(--neutral-color-1);
+    padding: 10px 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(0 0 15px #0f0f0f7b);
+            filter: drop-shadow(0 0 15px #0f0f0f7b);
+}
+
+/* Service category images */
+.service-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.service-image > img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.service-image > video {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+/* Service description */
+.service-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    width: 300px;
+    gap: 0.1rem;
+    padding: 4px;
+}
+
+/* tablets */
+@media (min-width: 768px){
+    /* Service Section (Container) */
+    .services {
+        -ms-grid-columns: 1fr 2rem 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 3rem 2rem 1fr 2rem 1fr;
+        grid-template-rows: 3rem 1fr 1fr;
+        row-gap: 2rem;
+        -webkit-column-gap: 2rem;
+           -moz-column-gap: 2rem;
+                column-gap: 2rem;
+    }
+    .services > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .services > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+    }
+    .services > *:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .services > *:nth-child(4) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+    }
+    .services > *:nth-child(5) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    .services > *:nth-child(6) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 3;
+    }
+
+    .services > h2 {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3;
+    }
+
+    .services > div:nth-child(2) {
+        -ms-grid-row-align: end;
+        -ms-grid-column-align: end;
+        place-self: end;
+    }
+
+    .services > div:nth-child(3) {
+        -ms-grid-row-align: start;
+        -ms-grid-column-align: start;
+        place-self: start;
+    }
+
+    .services > div:nth-child(4) {
+        -ms-grid-column-span: 2;
+        grid-column: span 2;
+        -ms-grid-row-align: center;
+        -ms-grid-column-align: center;
+        place-self: center;
+    }
+}
+
+/* desktops */
+@media (min-width: 1280px){
+    /* Service Section (Container) */
+    .services {
+        -ms-grid-columns: 1fr 0 0.75fr 0 1fr;
+        grid-template-columns: 1fr 0.75fr 1fr;
+        -ms-grid-rows: 3rem 2rem 1fr;
+        grid-template-rows: 3rem 1fr;
+        row-gap: 2rem;
+        -webkit-column-gap: 0;
+           -moz-column-gap: 0;
+                column-gap: 0;
+    }
+    .services > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .services > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+    }
+    .services > *:nth-child(3) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 5;
+    }
+    .services > *:nth-child(4) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .services > *:nth-child(5) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+    }
+    .services > *:nth-child(6) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 5;
+    }
+
+    .services > h2 {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+    }
+
+    /* Remove place-self */
+    .services > div{
+        -ms-grid-row-align: none;
+        -ms-grid-column-align: none;
+        place-self: none;
+    }
+
+    .services > div:nth-child(2) {
+        -ms-grid-row-align: end;
+        -ms-grid-column-align: end;
+        place-self: end;
+    }
+
+    .services > div:nth-child(3) {
+        -ms-grid-row-align: center;
+        -ms-grid-column-align: center;
+        place-self: center;
+    }
+
+    .services > div:nth-child(4) {
+        -ms-grid-column-span: 1;
+        grid-column: span 1;
+        -ms-grid-row-align: start;
+        -ms-grid-column-align: start;
+        place-self: start;
+    }
+}

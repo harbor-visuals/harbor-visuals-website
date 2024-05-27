@@ -1,0 +1,68 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root {
+    /* Colors */
+    --main-color: #72A4D7;
+    --main-color-tint-shade-1: #5b83ac;
+    --main-color-tint-shade-2: #446281;
+    --main-color-tint-shade-3: #2e4256;
+    --main-color-tint-shade-4: #17212b;
+
+    --secondary-color: #F9A952;
+    --secondary-color-tint-shade-1: #c78742;
+    --secondary-color-tint-shade-2: #956531;
+    --secondary-color-tint-shade-3: #644421;
+    --secondary-color-tint-shade-4: #322210;
+
+    --accent-color: #DB3A3B;
+    --accent-color-tint-shade-1: #af2e2f;
+    --accent-color-tint-shade-2: #832323;
+    --accent-color-tint-shade-3: #581718;
+    --accent-color-tint-shade-4: #2c0c0c;
+
+    --neutral-color-1: #FFFFFF;
+    --neutral-color-2: #000000;
+    --neutral-color-3: #9b9b9b;
+    --neutral-color-4: #303030;
+    
+    --background-color-dark: #0F0F0F;
+    --background-color-dark-2: #3c3c3c;
+    --background-color-light: #ffffff;
+    --background-color-light2: #cbcbcb;
+
+    /* Fonts */
+    --heading-font-family: 'titillium-web-bold', sans-serif;
+    --body-font-family: 'titillium-web-regular', sans-serif;
+    --light-font-family: 'titillium-web-extralight', sans-serif;
+
+    /* Font Sizes */
+    --mainheading-size: 6rem;
+    --mainheading-size-tablet: calc(var(--mainheading-size) / 1.5);
+    --mainheading-size-mobile: calc(var(--mainheading-size) / 2);
+    --heading-two-size: calc(var(--mainheading-size) / 1.618);
+    --heading-two-size-tablet: calc(var(--heading-two-size) / 1.5);
+    --heading-two-size-mobile: calc(var(--heading-two-size) / 2);
+    --heading-three-size: calc(var(--heading-two-size) / 1.618);
+    --heading-three-size-tablet: calc(var(--heading-three-size) / 1.5);   
+    --heading-three-size-mobile: calc(var(--heading-three-size) / 2);
+    --heading-four-size: calc(var(--heading-three-size) / 1.618);
+    --heading-four-size-tablet: calc(var(--heading-four-size) / 1.5);
+    --heading-four-size-mobile: calc(var(--heading-four-size) / 2);
+    --service-title: 1.5rem;
+    --service-title-tablet: calc(var(--service-title) / 1.5);
+    --service-title-mobile: var(--service-title-tablet);
+    --slogan-size: 4rem;
+    --slogan-size-tablet: calc(var(--slogan-size) / 1.5);
+    --slogan-size-mobile: calc(var(--slogan-size) / 2);
+    --link-size: 0.8rem;
+    --link-size-tablet: 0.8rem;
+    --link-size-mobile: 0.8rem;
+    --body-size: 1rem;
+    --body-size-tablet: 1rem;
+    --body-size-mobile: 1rem;
+}
