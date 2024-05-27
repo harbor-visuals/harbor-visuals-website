@@ -36,10 +36,10 @@ YouTube and beyond.
 
 Philippe Hafen
 
-- <a href="https://www.linkedin.com/in/philippe-hafen/" target="_blank">LinkedIn</a>
-- <a href="https://www.instagram.com/harborvisuals" target="_blank">Instagram</a>
-- <a href="https://www.youtube.com/@harborvisuals" target="_blank">YouTube</a>
-- <a href="https://ch.pinterest.com/harborvisuals/" target="_blank">Pinterest</a>
+- [LinkedIn](https://www.linkedin.com/in/philippe-hafen/)
+- [Instagram](https://www.instagram.com/harborvisuals)
+- [YouTube](https://www.youtube.com/@harborvisuals)
+- [Pinterest](https://ch.pinterest.com/harborvisuals/)
 
 ## License
 
