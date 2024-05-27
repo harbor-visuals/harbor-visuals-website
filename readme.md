@@ -32,6 +32,13 @@ The vision and style of the Harbor Visuals brand should be recognizable on all c
 and extend seamlessly from the website to various social media platforms such as Instagram,
 YouTube and beyond.
 
+## Concept
+
+A concept was developed in preparation for this project. This concept included all relevant topics that are important when planning a website.
+The concept was the basis for this development project and was to be implemented as well and as closely as possible.
+
+[Webconcept Harbor Visuals](https://1drv.ms/b/s!AltmeCVDdYw7hMsnsWFZFd0YGGxrSA?e=X532ZS)
+
 ### Authors
 
 Philippe Hafen
